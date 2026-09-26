@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Contact | AZURAN</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<header class="site-header">
+
+    <a href="index.html" class="brand">
+
+        <span>AZURAN</span>
+
+        <small>Turquoise Jewelry</small>
+
+    </a>
+
+
+    <nav class="nav">
+
+        <a href="index.html"
+           data-fa="خانه"
+           data-en="Home">
+            خانه
+        </a>
+
+        <a href="collection.html"
+           data-fa="مجموعه"
+           data-en="Collection">
+            مجموعه
+        </a>
+
+        <a href="guide.html"
+           data-fa="راهنمای فیروزه"
+           data-en="Turquoise Guide">
+            راهنمای فیروزه
+        </a>
+
+        <a href="about.html"
+           data-fa="درباره ما"
+           data-en="About">
+            درباره ما
+        </a>
+
+        <a href="gallery.html"
+           data-fa="گالری"
+           data-en="Gallery">
+            گالری
+        </a>
+
+        <a href="contact.html"
+           class="active"
+           data-fa="ارتباط"
+           data-en="Contact">
+            ارتباط
+        </a>
+
+    </nav>
+
+
+    <div class="header-tools">
+
+        <button
+            class="lang-btn"
+            id="langBtn"
+        >
+            EN
+        </button>
+
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+        >
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<section class="section">
+
+    <div class="contact-page">
+
+
+        <div class="contact-intro reveal">
+
+            <span
+                class="eyebrow"
+                data-fa="ارتباط با ما"
+                data-en="GET IN TOUCH"
+            >
+                ارتباط با ما
+            </span>
+
+
+            <h1
+                data-fa="حرفی داری؟ با ما در میان بگذار."
+                data-en="Have Something to Say?"
+            >
+                حرفی داری؟
+                با ما در میان بگذار.
+            </h1>
+
+
+            <p
+                data-fa="اگر درباره یک محصول، سنگ فیروزه یا خود مجموعه سوالی داری، می‌توانی از این فرم برای ارسال پیام استفاده کنی."
+                data-en="If you have a question about a piece, turquoise or the collection, you can use this form to send us a message."
+            >
+                اگر درباره یک محصول، سنگ فیروزه
+                یا خود مجموعه سوالی داری،
+                می‌توانی از این فرم برای ارسال پیام استفاده کنی.
+            </p>
+
+        </div>
+
+
+
+        <form
+            class="contact-form reveal"
+            id="contactForm"
+        >
+
+
+            <label>
+
+                <span
+                    data-fa="نام"
+                    data-en="Name"
+                >
+                    نام
+                </span>
+
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="نام شما"
+                    required
+                >
+
+            </label>
+
+
+
+            <label>
+
+                <span
+                    data-fa="ایمیل"
+                    data-en="Email"
+                >
+                    ایمیل
+                </span>
+
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    required
+                >
+
+            </label>
+
+
+
+            <label>
+
+                <span
+                    data-fa="موضوع"
+                    data-en="Subject"
+                >
+                    موضوع
+                </span>
+
+
+                <input
+                    type="text"
+                    name="subject"
+                    placeholder="موضوع پیام"
+                    required
+                >
+
+            </label>
+
+
+
+            <label>
+
+                <span
+                    data-fa="پیام"
+                    data-en="Message"
+                >
+                    پیام
+                </span>
+
+
+                <textarea
+                    name="message"
+                    rows="7"
+                    placeholder="پیامتان را اینجا بنویسید..."
+                    required
+                ></textarea>
+
+            </label>
+
+
+
+            <button
+                type="submit"
+                class="btn btn-gold"
+                data-fa="ارسال پیام"
+                data-en="Send Message"
+            >
+                ارسال پیام
+            </button>
+
+
+            <div
+                class="form-success"
+                id="formSuccess"
+            >
+
+                <span
+                    data-fa="پیام شما ثبت شد. ممنون که با AZURAN در ارتباط هستید."
+                    data-en="Your message has been received. Thank you for contacting AZURAN."
+                >
+                    پیام شما ثبت شد.
+                    ممنون که با AZURAN در ارتباط هستید.
+                </span>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<section class="section dark-section">
+
+    <div class="quote reveal">
+
+        <div class="quote-mark">
+            “
+        </div>
+
+
+        <blockquote
+            data-fa="یک گفت‌وگوی خوب می‌تواند شروع یک ایده خوب باشد."
+            data-en="A good conversation can be the beginning of a good idea."
+        >
+            یک گفت‌وگوی خوب می‌تواند
+            شروع یک ایده خوب باشد.
+        </blockquote>
+
+    </div>
+
+</section>
+
+
+
+<footer class="footer">
+
+    <div>
+
+        <a
+            href="index.html"
+            class="brand footer-brand"
+        >
+
+            <span>AZURAN</span>
+
+            <small>Turquoise Jewelry</small>
+
+        </a>
+
+
+        <p
+            data-fa="جواهراتی با فیروزه، برای کسانی که زیبایی طبیعی و متفاوت را دوست دارند."
+            data-en="Turquoise jewelry for those who appreciate natural and distinctive beauty."
+        >
+            جواهراتی با فیروزه،
+            برای کسانی که زیبایی طبیعی و متفاوت را دوست دارند.
+        </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="index.html"
+           data-fa="خانه"
+           data-en="Home">
+            خانه
+        </a>
+
+        <a href="collection.html"
+           data-fa="مجموعه"
+           data-en="Collection">
+            مجموعه
+        </a>
+
+        <a href="guide.html"
+           data-fa="راهنمای فیروزه"
+           data-en="Turquoise Guide">
+            راهنمای فیروزه
+        </a>
+
+        <a href="about.html"
+           data-fa="درباره ما"
+           data-en="About">
+            درباره ما
+        </a>
+
+        <a href="gallery.html"
+           data-fa="گالری"
+           data-en="Gallery">
+            گالری
+        </a>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>© 2026 AZURAN</span>
+
+        <span
+            data-fa="ساخته شده با عشق برای فیروزه"
+            data-en="Made with love for turquoise"
+        >
+            ساخته شده با عشق برای فیروزه
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
